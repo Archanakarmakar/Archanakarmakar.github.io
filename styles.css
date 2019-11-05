@@ -1,0 +1,40 @@
+h1{
+background-color:green; 	
+}
+body{
+	background-color:white;
+}
+h2 {
+  text-align:left;
+  border-style:solid;
+ }
+p {
+	background-color:green;
+   font-size:40px;
+}
+.container-index{
+   	background-color: gray;
+     color: white;
+      margin: 20px;
+      padding: 20px
+      width:70%;
+}
+#footer{
+background-color:gray; 	
+padding-top:20px;
+margin:20px; 
+}
+article {
+
+ font-size:20px;
+  float: left;
+  padding: 20px;
+  width: 70%;
+ height: 300px; /* only for demonstration, should be removed */
+}
+@media(min-width:600px){
+	p{
+	 font-size:1.25rem;	
+	 line-height:1.5;
+	}
+}
